@@ -1,0 +1,64 @@
+Running: C:\Xilinx\14.5\ISE_DS\ISE\bin\nt64\unwrapped\fuse.exe -intstyle ise -incremental -lib secureip -o B:/Acad/Course Material/Semester 4/CS223/cpu_trial_two/top_level_isim_beh.exe -prj B:/Acad/Course Material/Semester 4/CS223/cpu_trial_two/top_level_beh.prj work.top_level 
+ISim P.58f (signature 0x7708f090)
+Number of CPUs detected in this system: 8
+Turning on mult-threading, number of parallel sub-compilation jobs: 16 
+Determining compilation order of HDL files
+Parsing VHDL file "B:/Acad/Course Material/Semester 4/CS223/cpu_trial_two/temp_reg.vhd" into library work
+Parsing VHDL file "B:/Acad/Course Material/Semester 4/CS223/cpu_trial_two/stack_pointer.vhd" into library work
+Parsing VHDL file "B:/Acad/Course Material/Semester 4/CS223/cpu_trial_two/reg_file.vhd" into library work
+Parsing VHDL file "B:/Acad/Course Material/Semester 4/CS223/cpu_trial_two/ram.vhd" into library work
+Parsing VHDL file "B:/Acad/Course Material/Semester 4/CS223/cpu_trial_two/program_counter.vhd" into library work
+Parsing VHDL file "B:/Acad/Course Material/Semester 4/CS223/cpu_trial_two/mbr.vhd" into library work
+Parsing VHDL file "B:/Acad/Course Material/Semester 4/CS223/cpu_trial_two/mar.vhd" into library work
+Parsing VHDL file "B:/Acad/Course Material/Semester 4/CS223/cpu_trial_two/instruction_register.vhd" into library work
+Parsing VHDL file "B:/Acad/Course Material/Semester 4/CS223/cpu_trial_two/flag_reg.vhd" into library work
+Parsing VHDL file "B:/Acad/Course Material/Semester 4/CS223/cpu_trial_two/controller.vhd" into library work
+Parsing VHDL file "B:/Acad/Course Material/Semester 4/CS223/cpu_trial_two/aluResult.vhd" into library work
+Parsing VHDL file "B:/Acad/Course Material/Semester 4/CS223/cpu_trial_two/alu.vhd" into library work
+Parsing VHDL file "B:/Acad/Course Material/Semester 4/CS223/cpu_trial_two/accumulator.vhd" into library work
+Parsing VHDL file "B:/Acad/Course Material/Semester 4/CS223/cpu_trial_two/top_level.vhd" into library work
+Starting static elaboration
+Completed static elaboration
+Compiling package standard
+Compiling package std_logic_1164
+Compiling package numeric_std
+Compiling package std_logic_arith
+Compiling architecture accarch of entity accumulator [accumulator_default]
+Compiling architecture behavioral of entity alu [alu_default]
+Compiling architecture aluresultarch of entity aluResult [aluresult_default]
+Compiling architecture flagarch of entity flag_reg [flag_reg_default]
+Compiling architecture irarch of entity instruction_register [instruction_register_default]
+Compiling architecture mararch of entity mar [mar_default]
+Compiling architecture mbrarch of entity mbr [mbr_default]
+Compiling architecture pcarch of entity program_counter [program_counter_default]
+Compiling architecture ramarch of entity ram [ram_default]
+Compiling architecture regfilearch of entity reg_file [reg_file_default]
+Compiling architecture sparch of entity stack_pointer [stack_pointer_default]
+Compiling architecture tempregarch of entity temp_reg [temp_reg_default]
+Compiling architecture controllerarch of entity controller [controller_default]
+Compiling architecture behavior of entity top_level
+Time Resolution for simulation is 1ps.
+Waiting for 2 sub-compilation(s) to finish...
+ERROR:Simulator:754 - Signal EXCEPTION_ACCESS_VIOLATION received
+ERROR:Simulator:754 - Signal EXCEPTION_ACCESS_VIOLATION received
+ERROR:Simulator:754 - Signal EXCEPTION_ACCESS_VIOLATION received
+ERROR:Simulator:754 - Signal EXCEPTION_ACCESS_VIOLATION received
+ERROR:Simulator:754 - Signal EXCEPTION_ACCESS_VIOLATION received
+ERROR:Simulator:754 - Signal EXCEPTION_ACCESS_VIOLATION received
+ERROR:Simulator:754 - Signal EXCEPTION_ACCESS_VIOLATION received
+ERROR:Simulator:754 - Signal EXCEPTION_ACCESS_VIOLATION received
+ERROR:Simulator:754 - Signal EXCEPTION_ACCESS_VIOLATION received
+ERROR:Simulator:754 - Signal EXCEPTION_ACCESS_VIOLATION received
+ERROR:Simulator:754 - Signal EXCEPTION_ACCESS_VIOLATION received
+ERROR:Simulator:754 - Signal EXCEPTION_ACCESS_VIOLATION received
+ERROR:Simulator:754 - Signal EXCEPTION_ACCESS_VIOLATION received
+ERROR:Simulator:754 - Signal EXCEPTION_ACCESS_VIOLATION received
+ERROR:Simulator:754 - Signal EXCEPTION_ACCESS_VIOLATION received
+ERROR:Simulator:754 - Signal EXCEPTION_ACCESS_VIOLATION received
+ERROR:Simulator:754 - Signal EXCEPTION_ACCESS_VIOLATION received
+ERROR:Simulator:754 - Signal EXCEPTION_ACCESS_VIOLATION received
+ERROR:Simulator:754 - Signal EXCEPTION_ACCESS_VIOLATION received
+Compiled 31 VHDL Units
+Built simulation executable B:/Acad/Course Material/Semester 4/CS223/cpu_trial_two/top_level_isim_beh.exe
+Fuse Memory Usage: 75532 KB
+Fuse CPU Usage: 2608 ms

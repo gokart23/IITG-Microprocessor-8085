@@ -1,0 +1,20 @@
+NET "led_display[0]" LOC = "U18";
+NET "led_display[1]" LOC = "M14";
+NET "led_display[2]" LOC = "N14";
+NET "led_display[3]" LOC = "L14";
+NET "led_display[4]" LOC = "M13";
+NET "led_display[5]" LOC = "D4";
+NET "led_display[6]" LOC = "P16";
+NET "led_display[7]" LOC = "N12";
+
+
+NET "sel[0]" LOC = "A10";
+NET "sel[1]" LOC = "D14";
+NET "sel[2]" LOC = "C14";
+NET "sel[3]" LOC = "P15";
+
+NET "clk" LOC = "L15";
+#NET "clk" LOC = "N4";
+NET "reset" LOC = "E4";
+
+#NET "clk" CLOCK_DEDICATED_ROUTE = FALSE;

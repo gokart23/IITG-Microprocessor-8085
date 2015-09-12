@@ -1,0 +1,453 @@
+xst -intstyle ise -ifn "B:/Acad/Course Material/Semester 4/CS223/cpu_trial_two/impl_top_level.xst" -ofn "B:/Acad/Course Material/Semester 4/CS223/cpu_trial_two/impl_top_level.syr" 
+xst -intstyle ise -ifn "B:/Acad/Course Material/Semester 4/CS223/cpu_trial_two/impl_top_level.xst" -ofn "B:/Acad/Course Material/Semester 4/CS223/cpu_trial_two/impl_top_level.syr" 
+xst -intstyle ise -ifn "B:/Acad/Course Material/Semester 4/CS223/cpu_trial_two/impl_top_level.xst" -ofn "B:/Acad/Course Material/Semester 4/CS223/cpu_trial_two/impl_top_level.syr" 
+xst -intstyle ise -ifn "B:/Acad/Course Material/Semester 4/CS223/cpu_trial_two/impl_top_level.xst" -ofn "B:/Acad/Course Material/Semester 4/CS223/cpu_trial_two/impl_top_level.syr" 
+xst -intstyle ise -ifn "B:/Acad/Course Material/Semester 4/CS223/cpu_trial_two/impl_top_level.xst" -ofn "B:/Acad/Course Material/Semester 4/CS223/cpu_trial_two/impl_top_level.syr" 
+xst -intstyle ise -ifn "B:/Acad/Course Material/Semester 4/CS223/cpu_trial_two/impl_top_level.xst" -ofn "B:/Acad/Course Material/Semester 4/CS223/cpu_trial_two/impl_top_level.syr" 
+xst -intstyle ise -ifn "B:/Acad/Course Material/Semester 4/CS223/cpu_trial_two/impl_top_level.xst" -ofn "B:/Acad/Course Material/Semester 4/CS223/cpu_trial_two/impl_top_level.syr" 
+xst -intstyle ise -ifn "B:/Acad/Course Material/Semester 4/CS223/cpu_trial_two/impl_top_level.xst" -ofn "B:/Acad/Course Material/Semester 4/CS223/cpu_trial_two/impl_top_level.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx45-csg324-3 "impl_top_level.ngc" impl_top_level.ngd  
+map -intstyle ise -p xc6slx45-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o impl_top_level_map.ncd impl_top_level.ngd impl_top_level.pcf 
+xst -intstyle ise -ifn "B:/Acad/Course Material/Semester 4/CS223/cpu_trial_two/impl_top_level.xst" -ofn "B:/Acad/Course Material/Semester 4/CS223/cpu_trial_two/impl_top_level.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx45-csg324-3 "impl_top_level.ngc" impl_top_level.ngd  
+map -intstyle ise -p xc6slx45-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o impl_top_level_map.ncd impl_top_level.ngd impl_top_level.pcf 
+par -w -intstyle ise -ol high -mt off impl_top_level_map.ncd impl_top_level.ncd impl_top_level.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml impl_top_level.twx impl_top_level.ncd -o impl_top_level.twr impl_top_level.pcf 
+bitgen -intstyle ise -f impl_top_level.ut impl_top_level.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc impl_top_level.ucf -p xc6slx45-csg324-3 "impl_top_level.ngc" impl_top_level.ngd  
+map -intstyle ise -p xc6slx45-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o impl_top_level_map.ncd impl_top_level.ngd impl_top_level.pcf 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc impl_top_level.ucf -p xc6slx45-csg324-3 "impl_top_level.ngc" impl_top_level.ngd  
+map -intstyle ise -p xc6slx45-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o impl_top_level_map.ncd impl_top_level.ngd impl_top_level.pcf 
+par -w -intstyle ise -ol high -mt off impl_top_level_map.ncd impl_top_level.ncd impl_top_level.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml impl_top_level.twx impl_top_level.ncd -o impl_top_level.twr impl_top_level.pcf -ucf impl_top_level.ucf 
+bitgen -intstyle ise -f impl_top_level.ut impl_top_level.ncd 
+xst -intstyle ise -ifn "B:/Acad/Course Material/Semester 4/CS223/cpu_trial_two/impl_top_level.xst" -ofn "B:/Acad/Course Material/Semester 4/CS223/cpu_trial_two/impl_top_level.syr" 
+xst -intstyle ise -ifn "B:/Acad/Course Material/Semester 4/CS223/cpu_trial_two/impl_top_level.xst" -ofn "B:/Acad/Course Material/Semester 4/CS223/cpu_trial_two/impl_top_level.syr" 
+xst -intstyle ise -ifn "B:/Acad/Course Material/Semester 4/CS223/cpu_trial_two/impl_top_level.xst" -ofn "B:/Acad/Course Material/Semester 4/CS223/cpu_trial_two/impl_top_level.syr" 
+xst -intstyle ise -ifn "B:/Acad/Course Material/Semester 4/CS223/cpu_trial_two/impl_top_level.xst" -ofn "B:/Acad/Course Material/Semester 4/CS223/cpu_trial_two/impl_top_level.syr" 
+xst -intstyle ise -ifn "B:/Acad/Course Material/Semester 4/CS223/cpu_trial_two/impl_top_level.xst" -ofn "B:/Acad/Course Material/Semester 4/CS223/cpu_trial_two/impl_top_level.syr" 
+xst -intstyle ise -ifn "B:/Acad/Course Material/Semester 4/CS223/cpu_trial_two/impl_top_level.xst" -ofn "B:/Acad/Course Material/Semester 4/CS223/cpu_trial_two/impl_top_level.syr" 
+xst -intstyle ise -ifn "B:/Acad/Course Material/Semester 4/CS223/cpu_trial_two/impl_top_level.xst" -ofn "B:/Acad/Course Material/Semester 4/CS223/cpu_trial_two/impl_top_level.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc impl_top_level.ucf -p xc6slx45-csg324-3 "impl_top_level.ngc" impl_top_level.ngd  
+map -intstyle ise -p xc6slx45-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o impl_top_level_map.ncd impl_top_level.ngd impl_top_level.pcf 
+xst -intstyle ise -ifn "B:/Acad/Course Material/Semester 4/CS223/cpu_trial_two/impl_top_level.xst" -ofn "B:/Acad/Course Material/Semester 4/CS223/cpu_trial_two/impl_top_level.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc impl_top_level.ucf -p xc6slx45-csg324-3 "impl_top_level.ngc" impl_top_level.ngd  
+map -intstyle ise -p xc6slx45-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o impl_top_level_map.ncd impl_top_level.ngd impl_top_level.pcf 
+xst -intstyle ise -ifn "B:/Acad/Course Material/Semester 4/CS223/cpu_trial_two/impl_top_level.xst" -ofn "B:/Acad/Course Material/Semester 4/CS223/cpu_trial_two/impl_top_level.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc impl_top_level.ucf -p xc6slx45-csg324-3 "impl_top_level.ngc" impl_top_level.ngd  
+map -intstyle ise -p xc6slx45-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o impl_top_level_map.ncd impl_top_level.ngd impl_top_level.pcf 
+par -w -intstyle ise -ol high -mt off impl_top_level_map.ncd impl_top_level.ncd impl_top_level.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml impl_top_level.twx impl_top_level.ncd -o impl_top_level.twr impl_top_level.pcf -ucf impl_top_level.ucf 
+bitgen -intstyle ise -f impl_top_level.ut impl_top_level.ncd 
+xst -intstyle ise -ifn "B:/Acad/Course Material/Semester 4/CS223/cpu_trial_two/impl_top_level.xst" -ofn "B:/Acad/Course Material/Semester 4/CS223/cpu_trial_two/impl_top_level.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc impl_top_level.ucf -p xc6slx45-csg324-3 "impl_top_level.ngc" impl_top_level.ngd  
+map -intstyle ise -p xc6slx45-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o impl_top_level_map.ncd impl_top_level.ngd impl_top_level.pcf 
+par -w -intstyle ise -ol high -mt off impl_top_level_map.ncd impl_top_level.ncd impl_top_level.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml impl_top_level.twx impl_top_level.ncd -o impl_top_level.twr impl_top_level.pcf -ucf impl_top_level.ucf 
+bitgen -intstyle ise -f impl_top_level.ut impl_top_level.ncd 
+xst -intstyle ise -ifn "B:/Acad/Course Material/Semester 4/CS223/cpu_trial_two/impl_top_level.xst" -ofn "B:/Acad/Course Material/Semester 4/CS223/cpu_trial_two/impl_top_level.syr" 
+xst -intstyle ise -ifn "B:/Acad/Course Material/Semester 4/CS223/cpu_trial_two/impl_top_level.xst" -ofn "B:/Acad/Course Material/Semester 4/CS223/cpu_trial_two/impl_top_level.syr" 
+xst -intstyle ise -ifn "B:/Acad/Course Material/Semester 4/CS223/cpu_trial_two/impl_top_level.xst" -ofn "B:/Acad/Course Material/Semester 4/CS223/cpu_trial_two/impl_top_level.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc impl_top_level.ucf -p xc6slx45-csg324-3 "impl_top_level.ngc" impl_top_level.ngd  
+map -intstyle ise -p xc6slx45-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o impl_top_level_map.ncd impl_top_level.ngd impl_top_level.pcf 
+par -w -intstyle ise -ol high -mt off impl_top_level_map.ncd impl_top_level.ncd impl_top_level.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml impl_top_level.twx impl_top_level.ncd -o impl_top_level.twr impl_top_level.pcf -ucf impl_top_level.ucf 
+bitgen -intstyle ise -f impl_top_level.ut impl_top_level.ncd 
+xst -intstyle ise -ifn "B:/Acad/Course Material/Semester 4/CS223/cpu_trial_two/impl_top_level.xst" -ofn "B:/Acad/Course Material/Semester 4/CS223/cpu_trial_two/impl_top_level.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc impl_top_level.ucf -p xc6slx45-csg324-3 "impl_top_level.ngc" impl_top_level.ngd  
+map -intstyle ise -p xc6slx45-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o impl_top_level_map.ncd impl_top_level.ngd impl_top_level.pcf 
+par -w -intstyle ise -ol high -mt off impl_top_level_map.ncd impl_top_level.ncd impl_top_level.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml impl_top_level.twx impl_top_level.ncd -o impl_top_level.twr impl_top_level.pcf -ucf impl_top_level.ucf 
+bitgen -intstyle ise -f impl_top_level.ut impl_top_level.ncd 
+xst -intstyle ise -ifn "B:/Acad/Course Material/Semester 4/CS223/cpu_trial_two/impl_top_level.xst" -ofn "B:/Acad/Course Material/Semester 4/CS223/cpu_trial_two/impl_top_level.syr" 
+xst -intstyle ise -ifn "B:/Acad/Course Material/Semester 4/CS223/cpu_trial_two/impl_top_level.xst" -ofn "B:/Acad/Course Material/Semester 4/CS223/cpu_trial_two/impl_top_level.syr" 
+xst -intstyle ise -ifn "B:/Acad/Course Material/Semester 4/CS223/cpu_trial_two/impl_top_level.xst" -ofn "B:/Acad/Course Material/Semester 4/CS223/cpu_trial_two/impl_top_level.syr" 
+xst -intstyle ise -ifn "B:/Acad/Course Material/Semester 4/CS223/cpu_trial_two/impl_top_level.xst" -ofn "B:/Acad/Course Material/Semester 4/CS223/cpu_trial_two/impl_top_level.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc impl_top_level.ucf -p xc6slx45-csg324-3 "impl_top_level.ngc" impl_top_level.ngd  
+map -intstyle ise -p xc6slx45-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o impl_top_level_map.ncd impl_top_level.ngd impl_top_level.pcf 
+par -w -intstyle ise -ol high -mt off impl_top_level_map.ncd impl_top_level.ncd impl_top_level.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml impl_top_level.twx impl_top_level.ncd -o impl_top_level.twr impl_top_level.pcf -ucf impl_top_level.ucf 
+bitgen -intstyle ise -f impl_top_level.ut impl_top_level.ncd 
+xst -intstyle ise -ifn "B:/Acad/Course Material/Semester 4/CS223/cpu_trial_two/impl_top_level.xst" -ofn "B:/Acad/Course Material/Semester 4/CS223/cpu_trial_two/impl_top_level.syr" 
+xst -intstyle ise -ifn "B:/Acad/Course Material/Semester 4/CS223/cpu_trial_two/impl_top_level.xst" -ofn "B:/Acad/Course Material/Semester 4/CS223/cpu_trial_two/impl_top_level.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc impl_top_level.ucf -p xc6slx45-csg324-3 "impl_top_level.ngc" impl_top_level.ngd  
+map -intstyle ise -p xc6slx45-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o impl_top_level_map.ncd impl_top_level.ngd impl_top_level.pcf 
+par -w -intstyle ise -ol high -mt off impl_top_level_map.ncd impl_top_level.ncd impl_top_level.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml impl_top_level.twx impl_top_level.ncd -o impl_top_level.twr impl_top_level.pcf -ucf impl_top_level.ucf 
+bitgen -intstyle ise -f impl_top_level.ut impl_top_level.ncd 
+xst -intstyle ise -ifn "B:/Acad/Course Material/Semester 4/CS223/cpu_trial_two/impl_top_level.xst" -ofn "B:/Acad/Course Material/Semester 4/CS223/cpu_trial_two/impl_top_level.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc impl_top_level.ucf -p xc6slx45-csg324-3 "impl_top_level.ngc" impl_top_level.ngd  
+map -intstyle ise -p xc6slx45-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o impl_top_level_map.ncd impl_top_level.ngd impl_top_level.pcf 
+par -w -intstyle ise -ol high -mt off impl_top_level_map.ncd impl_top_level.ncd impl_top_level.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml impl_top_level.twx impl_top_level.ncd -o impl_top_level.twr impl_top_level.pcf -ucf impl_top_level.ucf 
+bitgen -intstyle ise -f impl_top_level.ut impl_top_level.ncd 
+xst -intstyle ise -ifn "B:/Acad/Course Material/Semester 4/CS223/cpu_trial_two/impl_top_level.xst" -ofn "B:/Acad/Course Material/Semester 4/CS223/cpu_trial_two/impl_top_level.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc impl_top_level.ucf -p xc6slx45-csg324-3 "impl_top_level.ngc" impl_top_level.ngd  
+map -intstyle ise -p xc6slx45-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o impl_top_level_map.ncd impl_top_level.ngd impl_top_level.pcf 
+par -w -intstyle ise -ol high -mt off impl_top_level_map.ncd impl_top_level.ncd impl_top_level.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml impl_top_level.twx impl_top_level.ncd -o impl_top_level.twr impl_top_level.pcf -ucf impl_top_level.ucf 
+bitgen -intstyle ise -f impl_top_level.ut impl_top_level.ncd 
+xst -intstyle ise -ifn "B:/Acad/Course Material/Semester 4/CS223/cpu_trial_two/impl_top_level.xst" -ofn "B:/Acad/Course Material/Semester 4/CS223/cpu_trial_two/impl_top_level.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc impl_top_level.ucf -p xc6slx45-csg324-3 "impl_top_level.ngc" impl_top_level.ngd  
+map -intstyle ise -p xc6slx45-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o impl_top_level_map.ncd impl_top_level.ngd impl_top_level.pcf 
+par -w -intstyle ise -ol high -mt off impl_top_level_map.ncd impl_top_level.ncd impl_top_level.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml impl_top_level.twx impl_top_level.ncd -o impl_top_level.twr impl_top_level.pcf -ucf impl_top_level.ucf 
+bitgen -intstyle ise -f impl_top_level.ut impl_top_level.ncd 
+xst -intstyle ise -ifn "B:/Acad/Course Material/Semester 4/CS223/cpu_trial_two/impl_top_level.xst" -ofn "B:/Acad/Course Material/Semester 4/CS223/cpu_trial_two/impl_top_level.syr" 
+xst -intstyle ise -ifn "B:/Acad/Course Material/Semester 4/CS223/cpu_trial_two/impl_top_level.xst" -ofn "B:/Acad/Course Material/Semester 4/CS223/cpu_trial_two/impl_top_level.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc impl_top_level.ucf -p xc6slx45-csg324-3 "impl_top_level.ngc" impl_top_level.ngd  
+map -intstyle ise -p xc6slx45-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o impl_top_level_map.ncd impl_top_level.ngd impl_top_level.pcf 
+par -w -intstyle ise -ol high -mt off impl_top_level_map.ncd impl_top_level.ncd impl_top_level.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml impl_top_level.twx impl_top_level.ncd -o impl_top_level.twr impl_top_level.pcf -ucf impl_top_level.ucf 
+xst -intstyle ise -ifn "B:/Acad/Course Material/Semester 4/CS223/cpu_trial_two/impl_top_level.xst" -ofn "B:/Acad/Course Material/Semester 4/CS223/cpu_trial_two/impl_top_level.syr" 
+xst -intstyle ise -ifn "B:/Acad/Course Material/Semester 4/CS223/cpu_trial_two/impl_top_level.xst" -ofn "B:/Acad/Course Material/Semester 4/CS223/cpu_trial_two/impl_top_level.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc impl_top_level.ucf -p xc6slx45-csg324-3 "impl_top_level.ngc" impl_top_level.ngd  
+map -intstyle ise -p xc6slx45-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o impl_top_level_map.ncd impl_top_level.ngd impl_top_level.pcf 
+par -w -intstyle ise -ol high -mt off impl_top_level_map.ncd impl_top_level.ncd impl_top_level.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml impl_top_level.twx impl_top_level.ncd -o impl_top_level.twr impl_top_level.pcf -ucf impl_top_level.ucf 
+bitgen -intstyle ise -f impl_top_level.ut impl_top_level.ncd 
+xst -intstyle ise -ifn "B:/Acad/Course Material/Semester 4/CS223/cpu_trial_two/impl_top_level.xst" -ofn "B:/Acad/Course Material/Semester 4/CS223/cpu_trial_two/impl_top_level.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc impl_top_level.ucf -p xc6slx45-csg324-3 "impl_top_level.ngc" impl_top_level.ngd  
+map -intstyle ise -p xc6slx45-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o impl_top_level_map.ncd impl_top_level.ngd impl_top_level.pcf 
+par -w -intstyle ise -ol high -mt off impl_top_level_map.ncd impl_top_level.ncd impl_top_level.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml impl_top_level.twx impl_top_level.ncd -o impl_top_level.twr impl_top_level.pcf -ucf impl_top_level.ucf 
+bitgen -intstyle ise -f impl_top_level.ut impl_top_level.ncd 
+xst -intstyle ise -ifn "B:/Acad/Course Material/Semester 4/CS223/cpu_trial_two/impl_top_level.xst" -ofn "B:/Acad/Course Material/Semester 4/CS223/cpu_trial_two/impl_top_level.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc impl_top_level.ucf -p xc6slx45-csg324-3 "impl_top_level.ngc" impl_top_level.ngd  
+map -intstyle ise -p xc6slx45-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o impl_top_level_map.ncd impl_top_level.ngd impl_top_level.pcf 
+par -w -intstyle ise -ol high -mt off impl_top_level_map.ncd impl_top_level.ncd impl_top_level.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml impl_top_level.twx impl_top_level.ncd -o impl_top_level.twr impl_top_level.pcf -ucf impl_top_level.ucf 
+bitgen -intstyle ise -f impl_top_level.ut impl_top_level.ncd 
+xst -intstyle ise -ifn "B:/Acad/Course Material/Semester 4/CS223/cpu_trial_two/impl_top_level.xst" -ofn "B:/Acad/Course Material/Semester 4/CS223/cpu_trial_two/impl_top_level.syr" 
+xst -intstyle ise -ifn "B:/Acad/Course Material/Semester 4/CS223/cpu_trial_two/impl_top_level.xst" -ofn "B:/Acad/Course Material/Semester 4/CS223/cpu_trial_two/impl_top_level.syr" 
+xst -intstyle ise -ifn "B:/Acad/Course Material/Semester 4/CS223/cpu_trial_two/impl_top_level.xst" -ofn "B:/Acad/Course Material/Semester 4/CS223/cpu_trial_two/impl_top_level.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc impl_top_level.ucf -p xc6slx45-csg324-3 "impl_top_level.ngc" impl_top_level.ngd  
+map -intstyle ise -p xc6slx45-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o impl_top_level_map.ncd impl_top_level.ngd impl_top_level.pcf 
+par -w -intstyle ise -ol high -mt off impl_top_level_map.ncd impl_top_level.ncd impl_top_level.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml impl_top_level.twx impl_top_level.ncd -o impl_top_level.twr impl_top_level.pcf -ucf impl_top_level.ucf 
+bitgen -intstyle ise -f impl_top_level.ut impl_top_level.ncd 
+xst -intstyle ise -ifn "B:/Acad/Course Material/Semester 4/CS223/cpu_trial_two/impl_top_level.xst" -ofn "B:/Acad/Course Material/Semester 4/CS223/cpu_trial_two/impl_top_level.syr" 
+xst -intstyle ise -ifn "B:/Acad/Course Material/Semester 4/CS223/cpu_trial_two/impl_top_level.xst" -ofn "B:/Acad/Course Material/Semester 4/CS223/cpu_trial_two/impl_top_level.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc impl_top_level.ucf -p xc6slx45-csg324-3 "impl_top_level.ngc" impl_top_level.ngd  
+map -intstyle ise -p xc6slx45-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o impl_top_level_map.ncd impl_top_level.ngd impl_top_level.pcf 
+par -w -intstyle ise -ol high -mt off impl_top_level_map.ncd impl_top_level.ncd impl_top_level.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml impl_top_level.twx impl_top_level.ncd -o impl_top_level.twr impl_top_level.pcf -ucf impl_top_level.ucf 
+bitgen -intstyle ise -f impl_top_level.ut impl_top_level.ncd 
+xst -intstyle ise -ifn "B:/Acad/Course Material/Semester 4/CS223/cpu_trial_two/impl_top_level.xst" -ofn "B:/Acad/Course Material/Semester 4/CS223/cpu_trial_two/impl_top_level.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc impl_top_level.ucf -p xc6slx45-csg324-3 "impl_top_level.ngc" impl_top_level.ngd  
+map -intstyle ise -p xc6slx45-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o impl_top_level_map.ncd impl_top_level.ngd impl_top_level.pcf 
+par -w -intstyle ise -ol high -mt off impl_top_level_map.ncd impl_top_level.ncd impl_top_level.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml impl_top_level.twx impl_top_level.ncd -o impl_top_level.twr impl_top_level.pcf -ucf impl_top_level.ucf 
+bitgen -intstyle ise -f impl_top_level.ut impl_top_level.ncd 
+xst -intstyle ise -ifn "B:/Acad/Course Material/Semester 4/CS223/cpu_trial_two/impl_top_level.xst" -ofn "B:/Acad/Course Material/Semester 4/CS223/cpu_trial_two/impl_top_level.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc impl_top_level.ucf -p xc6slx45-csg324-3 "impl_top_level.ngc" impl_top_level.ngd  
+map -intstyle ise -p xc6slx45-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o impl_top_level_map.ncd impl_top_level.ngd impl_top_level.pcf 
+par -w -intstyle ise -ol high -mt off impl_top_level_map.ncd impl_top_level.ncd impl_top_level.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml impl_top_level.twx impl_top_level.ncd -o impl_top_level.twr impl_top_level.pcf -ucf impl_top_level.ucf 
+bitgen -intstyle ise -f impl_top_level.ut impl_top_level.ncd 
+xst -intstyle ise -ifn "B:/Acad/Course Material/Semester 4/CS223/cpu_trial_two/impl_top_level.xst" -ofn "B:/Acad/Course Material/Semester 4/CS223/cpu_trial_two/impl_top_level.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc impl_top_level.ucf -p xc6slx45-csg324-3 "impl_top_level.ngc" impl_top_level.ngd  
+map -intstyle ise -p xc6slx45-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o impl_top_level_map.ncd impl_top_level.ngd impl_top_level.pcf 
+par -w -intstyle ise -ol high -mt off impl_top_level_map.ncd impl_top_level.ncd impl_top_level.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml impl_top_level.twx impl_top_level.ncd -o impl_top_level.twr impl_top_level.pcf -ucf impl_top_level.ucf 
+bitgen -intstyle ise -f impl_top_level.ut impl_top_level.ncd 
+xst -intstyle ise -ifn "B:/Acad/Course Material/Semester 4/CS223/cpu_trial_two/impl_top_level.xst" -ofn "B:/Acad/Course Material/Semester 4/CS223/cpu_trial_two/impl_top_level.syr" 
+xst -intstyle ise -ifn "B:/Acad/Course Material/Semester 4/CS223/cpu_trial_two/impl_top_level.xst" -ofn "B:/Acad/Course Material/Semester 4/CS223/cpu_trial_two/impl_top_level.syr" 
+xst -intstyle ise -ifn "B:/Acad/Course Material/Semester 4/CS223/cpu_trial_two/impl_top_level.xst" -ofn "B:/Acad/Course Material/Semester 4/CS223/cpu_trial_two/impl_top_level.syr" 
+xst -intstyle ise -ifn "B:/Acad/Course Material/Semester 4/CS223/cpu_trial_two/impl_top_level.xst" -ofn "B:/Acad/Course Material/Semester 4/CS223/cpu_trial_two/impl_top_level.syr" 
+xst -intstyle ise -ifn "B:/Acad/Course Material/Semester 4/CS223/cpu_trial_two/impl_top_level.xst" -ofn "B:/Acad/Course Material/Semester 4/CS223/cpu_trial_two/impl_top_level.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc impl_top_level.ucf -p xc6slx45-csg324-3 "impl_top_level.ngc" impl_top_level.ngd  
+map -intstyle ise -p xc6slx45-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o impl_top_level_map.ncd impl_top_level.ngd impl_top_level.pcf 
+par -w -intstyle ise -ol high -mt off impl_top_level_map.ncd impl_top_level.ncd impl_top_level.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml impl_top_level.twx impl_top_level.ncd -o impl_top_level.twr impl_top_level.pcf -ucf impl_top_level.ucf 
+bitgen -intstyle ise -f impl_top_level.ut impl_top_level.ncd 
+xst -intstyle ise -ifn "B:/Acad/Course Material/Semester 4/CS223/cpu_trial_two/impl_top_level.xst" -ofn "B:/Acad/Course Material/Semester 4/CS223/cpu_trial_two/impl_top_level.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc impl_top_level.ucf -p xc6slx45-csg324-3 "impl_top_level.ngc" impl_top_level.ngd  
+map -intstyle ise -p xc6slx45-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o impl_top_level_map.ncd impl_top_level.ngd impl_top_level.pcf 
+par -w -intstyle ise -ol high -mt off impl_top_level_map.ncd impl_top_level.ncd impl_top_level.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml impl_top_level.twx impl_top_level.ncd -o impl_top_level.twr impl_top_level.pcf -ucf impl_top_level.ucf 
+bitgen -intstyle ise -f impl_top_level.ut impl_top_level.ncd 
+xst -intstyle ise -ifn "B:/Acad/Course Material/Semester 4/CS223/cpu_trial_two/impl_top_level.xst" -ofn "B:/Acad/Course Material/Semester 4/CS223/cpu_trial_two/impl_top_level.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc impl_top_level.ucf -p xc6slx45-csg324-3 "impl_top_level.ngc" impl_top_level.ngd  
+map -intstyle ise -p xc6slx45-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o impl_top_level_map.ncd impl_top_level.ngd impl_top_level.pcf 
+par -w -intstyle ise -ol high -mt off impl_top_level_map.ncd impl_top_level.ncd impl_top_level.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml impl_top_level.twx impl_top_level.ncd -o impl_top_level.twr impl_top_level.pcf -ucf impl_top_level.ucf 
+bitgen -intstyle ise -f impl_top_level.ut impl_top_level.ncd 
+xst -intstyle ise -ifn "B:/Acad/Course Material/Semester 4/CS223/cpu_trial_two/impl_top_level.xst" -ofn "B:/Acad/Course Material/Semester 4/CS223/cpu_trial_two/impl_top_level.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc impl_top_level.ucf -p xc6slx45-csg324-3 "impl_top_level.ngc" impl_top_level.ngd  
+map -intstyle ise -p xc6slx45-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o impl_top_level_map.ncd impl_top_level.ngd impl_top_level.pcf 
+par -w -intstyle ise -ol high -mt off impl_top_level_map.ncd impl_top_level.ncd impl_top_level.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml impl_top_level.twx impl_top_level.ncd -o impl_top_level.twr impl_top_level.pcf -ucf impl_top_level.ucf 
+bitgen -intstyle ise -f impl_top_level.ut impl_top_level.ncd 
+xst -intstyle ise -ifn "B:/Acad/Course Material/Semester 4/CS223/cpu_trial_two/impl_top_level.xst" -ofn "B:/Acad/Course Material/Semester 4/CS223/cpu_trial_two/impl_top_level.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc impl_top_level.ucf -p xc6slx45-csg324-3 "impl_top_level.ngc" impl_top_level.ngd  
+map -intstyle ise -p xc6slx45-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o impl_top_level_map.ncd impl_top_level.ngd impl_top_level.pcf 
+par -w -intstyle ise -ol high -mt off impl_top_level_map.ncd impl_top_level.ncd impl_top_level.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml impl_top_level.twx impl_top_level.ncd -o impl_top_level.twr impl_top_level.pcf -ucf impl_top_level.ucf 
+bitgen -intstyle ise -f impl_top_level.ut impl_top_level.ncd 
+xst -intstyle ise -ifn "B:/Acad/Course Material/Semester 4/CS223/cpu_trial_two/impl_top_level.xst" -ofn "B:/Acad/Course Material/Semester 4/CS223/cpu_trial_two/impl_top_level.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc impl_top_level.ucf -p xc6slx45-csg324-3 "impl_top_level.ngc" impl_top_level.ngd  
+map -intstyle ise -p xc6slx45-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o impl_top_level_map.ncd impl_top_level.ngd impl_top_level.pcf 
+par -w -intstyle ise -ol high -mt off impl_top_level_map.ncd impl_top_level.ncd impl_top_level.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml impl_top_level.twx impl_top_level.ncd -o impl_top_level.twr impl_top_level.pcf -ucf impl_top_level.ucf 
+bitgen -intstyle ise -f impl_top_level.ut impl_top_level.ncd 
+xst -intstyle ise -ifn "B:/Acad/Course Material/Semester 4/CS223/cpu_trial_two/impl_top_level.xst" -ofn "B:/Acad/Course Material/Semester 4/CS223/cpu_trial_two/impl_top_level.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc impl_top_level.ucf -p xc6slx45-csg324-3 "impl_top_level.ngc" impl_top_level.ngd  
+map -intstyle ise -p xc6slx45-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o impl_top_level_map.ncd impl_top_level.ngd impl_top_level.pcf 
+par -w -intstyle ise -ol high -mt off impl_top_level_map.ncd impl_top_level.ncd impl_top_level.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml impl_top_level.twx impl_top_level.ncd -o impl_top_level.twr impl_top_level.pcf -ucf impl_top_level.ucf 
+bitgen -intstyle ise -f impl_top_level.ut impl_top_level.ncd 
+xst -intstyle ise -ifn "B:/Acad/Course Material/Semester 4/CS223/cpu_trial_two/impl_top_level.xst" -ofn "B:/Acad/Course Material/Semester 4/CS223/cpu_trial_two/impl_top_level.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc impl_top_level.ucf -p xc6slx45-csg324-3 "impl_top_level.ngc" impl_top_level.ngd  
+map -intstyle ise -p xc6slx45-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o impl_top_level_map.ncd impl_top_level.ngd impl_top_level.pcf 
+par -w -intstyle ise -ol high -mt off impl_top_level_map.ncd impl_top_level.ncd impl_top_level.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml impl_top_level.twx impl_top_level.ncd -o impl_top_level.twr impl_top_level.pcf -ucf impl_top_level.ucf 
+bitgen -intstyle ise -f impl_top_level.ut impl_top_level.ncd 
+xst -intstyle ise -ifn "B:/Acad/Course Material/Semester 4/CS223/cpu_trial_two/impl_top_level.xst" -ofn "B:/Acad/Course Material/Semester 4/CS223/cpu_trial_two/impl_top_level.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc impl_top_level.ucf -p xc6slx45-csg324-3 "impl_top_level.ngc" impl_top_level.ngd  
+map -intstyle ise -p xc6slx45-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o impl_top_level_map.ncd impl_top_level.ngd impl_top_level.pcf 
+par -w -intstyle ise -ol high -mt off impl_top_level_map.ncd impl_top_level.ncd impl_top_level.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml impl_top_level.twx impl_top_level.ncd -o impl_top_level.twr impl_top_level.pcf -ucf impl_top_level.ucf 
+bitgen -intstyle ise -f impl_top_level.ut impl_top_level.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc impl_top_level.ucf -p xc6slx45-csg324-3 "impl_top_level.ngc" impl_top_level.ngd  
+map -intstyle ise -p xc6slx45-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o impl_top_level_map.ncd impl_top_level.ngd impl_top_level.pcf 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc impl_top_level.ucf -p xc6slx45-csg324-3 "impl_top_level.ngc" impl_top_level.ngd  
+map -intstyle ise -p xc6slx45-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o impl_top_level_map.ncd impl_top_level.ngd impl_top_level.pcf 
+par -w -intstyle ise -ol high -mt off impl_top_level_map.ncd impl_top_level.ncd impl_top_level.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml impl_top_level.twx impl_top_level.ncd -o impl_top_level.twr impl_top_level.pcf -ucf impl_top_level.ucf 
+bitgen -intstyle ise -f impl_top_level.ut impl_top_level.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc impl_top_level.ucf -p xc6slx45-csg324-3 "impl_top_level.ngc" impl_top_level.ngd  
+map -intstyle ise -p xc6slx45-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o impl_top_level_map.ncd impl_top_level.ngd impl_top_level.pcf 
+par -w -intstyle ise -ol high -mt off impl_top_level_map.ncd impl_top_level.ncd impl_top_level.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml impl_top_level.twx impl_top_level.ncd -o impl_top_level.twr impl_top_level.pcf -ucf impl_top_level.ucf 
+bitgen -intstyle ise -f impl_top_level.ut impl_top_level.ncd 
+xst -intstyle ise -ifn "B:/Acad/Course Material/Semester 4/CS223/cpu_trial_two/impl_top_level.xst" -ofn "B:/Acad/Course Material/Semester 4/CS223/cpu_trial_two/impl_top_level.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc impl_top_level.ucf -p xc6slx45-csg324-3 "impl_top_level.ngc" impl_top_level.ngd  
+map -intstyle ise -p xc6slx45-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o impl_top_level_map.ncd impl_top_level.ngd impl_top_level.pcf 
+par -w -intstyle ise -ol high -mt off impl_top_level_map.ncd impl_top_level.ncd impl_top_level.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml impl_top_level.twx impl_top_level.ncd -o impl_top_level.twr impl_top_level.pcf -ucf impl_top_level.ucf 
+bitgen -intstyle ise -f impl_top_level.ut impl_top_level.ncd 
+xst -intstyle ise -ifn "B:/Acad/Course Material/Semester 4/CS223/cpu_trial_two/impl_top_level.xst" -ofn "B:/Acad/Course Material/Semester 4/CS223/cpu_trial_two/impl_top_level.syr" 
+xst -intstyle ise -ifn "B:/Acad/Course Material/Semester 4/CS223/cpu_trial_two/impl_top_level.xst" -ofn "B:/Acad/Course Material/Semester 4/CS223/cpu_trial_two/impl_top_level.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc impl_top_level.ucf -p xc6slx45-csg324-3 "impl_top_level.ngc" impl_top_level.ngd  
+map -intstyle ise -p xc6slx45-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o impl_top_level_map.ncd impl_top_level.ngd impl_top_level.pcf 
+par -w -intstyle ise -ol high -mt off impl_top_level_map.ncd impl_top_level.ncd impl_top_level.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml impl_top_level.twx impl_top_level.ncd -o impl_top_level.twr impl_top_level.pcf -ucf impl_top_level.ucf 
+bitgen -intstyle ise -f impl_top_level.ut impl_top_level.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc impl_top_level.ucf -p xc6slx45-csg324-3 "impl_top_level.ngc" impl_top_level.ngd  
+map -intstyle ise -p xc6slx45-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o impl_top_level_map.ncd impl_top_level.ngd impl_top_level.pcf 
+par -w -intstyle ise -ol high -mt off impl_top_level_map.ncd impl_top_level.ncd impl_top_level.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml impl_top_level.twx impl_top_level.ncd -o impl_top_level.twr impl_top_level.pcf -ucf impl_top_level.ucf 
+bitgen -intstyle ise -f impl_top_level.ut impl_top_level.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc impl_top_level.ucf -p xc6slx45-csg324-3 "impl_top_level.ngc" impl_top_level.ngd  
+map -intstyle ise -p xc6slx45-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o impl_top_level_map.ncd impl_top_level.ngd impl_top_level.pcf 
+par -w -intstyle ise -ol high -mt off impl_top_level_map.ncd impl_top_level.ncd impl_top_level.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml impl_top_level.twx impl_top_level.ncd -o impl_top_level.twr impl_top_level.pcf -ucf impl_top_level.ucf 
+bitgen -intstyle ise -f impl_top_level.ut impl_top_level.ncd 
+xst -intstyle ise -ifn "B:/Acad/Course Material/Semester 4/CS223/cpu_trial_two/impl_top_level.xst" -ofn "B:/Acad/Course Material/Semester 4/CS223/cpu_trial_two/impl_top_level.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc impl_top_level.ucf -p xc6slx45-csg324-3 "impl_top_level.ngc" impl_top_level.ngd  
+map -intstyle ise -p xc6slx45-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o impl_top_level_map.ncd impl_top_level.ngd impl_top_level.pcf 
+par -w -intstyle ise -ol high -mt off impl_top_level_map.ncd impl_top_level.ncd impl_top_level.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml impl_top_level.twx impl_top_level.ncd -o impl_top_level.twr impl_top_level.pcf -ucf impl_top_level.ucf 
+bitgen -intstyle ise -f impl_top_level.ut impl_top_level.ncd 
+xst -intstyle ise -ifn "B:/Acad/Course Material/Semester 4/CS223/cpu_trial_two/impl_top_level.xst" -ofn "B:/Acad/Course Material/Semester 4/CS223/cpu_trial_two/impl_top_level.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc impl_top_level.ucf -p xc6slx45-csg324-3 "impl_top_level.ngc" impl_top_level.ngd  
+map -intstyle ise -p xc6slx45-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o impl_top_level_map.ncd impl_top_level.ngd impl_top_level.pcf 
+par -w -intstyle ise -ol high -mt off impl_top_level_map.ncd impl_top_level.ncd impl_top_level.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml impl_top_level.twx impl_top_level.ncd -o impl_top_level.twr impl_top_level.pcf -ucf impl_top_level.ucf 
+bitgen -intstyle ise -f impl_top_level.ut impl_top_level.ncd 
+xst -intstyle ise -ifn "B:/Acad/Course Material/Semester 4/CS223/cpu_trial_two/impl_top_level.xst" -ofn "B:/Acad/Course Material/Semester 4/CS223/cpu_trial_two/impl_top_level.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc impl_top_level.ucf -p xc6slx45-csg324-3 "impl_top_level.ngc" impl_top_level.ngd  
+map -intstyle ise -p xc6slx45-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o impl_top_level_map.ncd impl_top_level.ngd impl_top_level.pcf 
+par -w -intstyle ise -ol high -mt off impl_top_level_map.ncd impl_top_level.ncd impl_top_level.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml impl_top_level.twx impl_top_level.ncd -o impl_top_level.twr impl_top_level.pcf -ucf impl_top_level.ucf 
+bitgen -intstyle ise -f impl_top_level.ut impl_top_level.ncd 
+xst -intstyle ise -ifn "B:/Acad/Course Material/Semester 4/CS223/cpu_trial_two/impl_top_level.xst" -ofn "B:/Acad/Course Material/Semester 4/CS223/cpu_trial_two/impl_top_level.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc impl_top_level.ucf -p xc6slx45-csg324-3 "impl_top_level.ngc" impl_top_level.ngd  
+map -intstyle ise -p xc6slx45-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o impl_top_level_map.ncd impl_top_level.ngd impl_top_level.pcf 
+par -w -intstyle ise -ol high -mt off impl_top_level_map.ncd impl_top_level.ncd impl_top_level.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml impl_top_level.twx impl_top_level.ncd -o impl_top_level.twr impl_top_level.pcf -ucf impl_top_level.ucf 
+bitgen -intstyle ise -f impl_top_level.ut impl_top_level.ncd 
+xst -intstyle ise -ifn "B:/Acad/Course Material/Semester 4/CS223/cpu_trial_two/impl_top_level.xst" -ofn "B:/Acad/Course Material/Semester 4/CS223/cpu_trial_two/impl_top_level.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc impl_top_level.ucf -p xc6slx45-csg324-3 "impl_top_level.ngc" impl_top_level.ngd  
+map -intstyle ise -p xc6slx45-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o impl_top_level_map.ncd impl_top_level.ngd impl_top_level.pcf 
+par -w -intstyle ise -ol high -mt off impl_top_level_map.ncd impl_top_level.ncd impl_top_level.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml impl_top_level.twx impl_top_level.ncd -o impl_top_level.twr impl_top_level.pcf -ucf impl_top_level.ucf 
+bitgen -intstyle ise -f impl_top_level.ut impl_top_level.ncd 
+xst -intstyle ise -ifn "B:/Acad/Course Material/Semester 4/CS223/cpu_trial_two/impl_top_level.xst" -ofn "B:/Acad/Course Material/Semester 4/CS223/cpu_trial_two/impl_top_level.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc impl_top_level.ucf -p xc6slx45-csg324-3 "impl_top_level.ngc" impl_top_level.ngd  
+map -intstyle ise -p xc6slx45-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o impl_top_level_map.ncd impl_top_level.ngd impl_top_level.pcf 
+par -w -intstyle ise -ol high -mt off impl_top_level_map.ncd impl_top_level.ncd impl_top_level.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml impl_top_level.twx impl_top_level.ncd -o impl_top_level.twr impl_top_level.pcf -ucf impl_top_level.ucf 
+bitgen -intstyle ise -f impl_top_level.ut impl_top_level.ncd 
+xst -intstyle ise -ifn "B:/Acad/Course Material/Semester 4/CS223/cpu_trial_two/impl_top_level.xst" -ofn "B:/Acad/Course Material/Semester 4/CS223/cpu_trial_two/impl_top_level.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc impl_top_level.ucf -p xc6slx45-csg324-3 "impl_top_level.ngc" impl_top_level.ngd  
+map -intstyle ise -p xc6slx45-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o impl_top_level_map.ncd impl_top_level.ngd impl_top_level.pcf 
+par -w -intstyle ise -ol high -mt off impl_top_level_map.ncd impl_top_level.ncd impl_top_level.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml impl_top_level.twx impl_top_level.ncd -o impl_top_level.twr impl_top_level.pcf -ucf impl_top_level.ucf 
+bitgen -intstyle ise -f impl_top_level.ut impl_top_level.ncd 
+xst -intstyle ise -ifn "B:/Acad/Course Material/Semester 4/CS223/cpu_trial_two/impl_top_level.xst" -ofn "B:/Acad/Course Material/Semester 4/CS223/cpu_trial_two/impl_top_level.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc impl_top_level.ucf -p xc6slx45-csg324-3 "impl_top_level.ngc" impl_top_level.ngd  
+map -intstyle ise -p xc6slx45-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o impl_top_level_map.ncd impl_top_level.ngd impl_top_level.pcf 
+par -w -intstyle ise -ol high -mt off impl_top_level_map.ncd impl_top_level.ncd impl_top_level.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml impl_top_level.twx impl_top_level.ncd -o impl_top_level.twr impl_top_level.pcf -ucf impl_top_level.ucf 
+bitgen -intstyle ise -f impl_top_level.ut impl_top_level.ncd 
+xst -intstyle ise -ifn "B:/Acad/Course Material/Semester 4/CS223/cpu_trial_two/impl_top_level.xst" -ofn "B:/Acad/Course Material/Semester 4/CS223/cpu_trial_two/impl_top_level.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc impl_top_level.ucf -p xc6slx45-csg324-3 "impl_top_level.ngc" impl_top_level.ngd  
+map -intstyle ise -p xc6slx45-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o impl_top_level_map.ncd impl_top_level.ngd impl_top_level.pcf 
+par -w -intstyle ise -ol high -mt off impl_top_level_map.ncd impl_top_level.ncd impl_top_level.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml impl_top_level.twx impl_top_level.ncd -o impl_top_level.twr impl_top_level.pcf -ucf impl_top_level.ucf 
+bitgen -intstyle ise -f impl_top_level.ut impl_top_level.ncd 
+xst -intstyle ise -ifn "B:/Acad/Course Material/Semester 4/CS223/cpu_trial_two/impl_top_level.xst" -ofn "B:/Acad/Course Material/Semester 4/CS223/cpu_trial_two/impl_top_level.syr" 
+xst -intstyle ise -ifn "B:/Acad/Course Material/Semester 4/CS223/cpu_trial_two/impl_top_level.xst" -ofn "B:/Acad/Course Material/Semester 4/CS223/cpu_trial_two/impl_top_level.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc impl_top_level.ucf -p xc6slx45-csg324-3 "impl_top_level.ngc" impl_top_level.ngd  
+map -intstyle ise -p xc6slx45-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o impl_top_level_map.ncd impl_top_level.ngd impl_top_level.pcf 
+par -w -intstyle ise -ol high -mt off impl_top_level_map.ncd impl_top_level.ncd impl_top_level.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml impl_top_level.twx impl_top_level.ncd -o impl_top_level.twr impl_top_level.pcf -ucf impl_top_level.ucf 
+bitgen -intstyle ise -f impl_top_level.ut impl_top_level.ncd 
+xst -intstyle ise -ifn "B:/Acad/Course Material/Semester 4/CS223/cpu_trial_two/impl_top_level.xst" -ofn "B:/Acad/Course Material/Semester 4/CS223/cpu_trial_two/impl_top_level.syr" 
+xst -intstyle ise -ifn "B:/Acad/Course Material/Semester 4/CS223/cpu_trial_two/impl_top_level.xst" -ofn "B:/Acad/Course Material/Semester 4/CS223/cpu_trial_two/impl_top_level.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc impl_top_level.ucf -p xc6slx45-csg324-3 "impl_top_level.ngc" impl_top_level.ngd  
+map -intstyle ise -p xc6slx45-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o impl_top_level_map.ncd impl_top_level.ngd impl_top_level.pcf 
+par -w -intstyle ise -ol high -mt off impl_top_level_map.ncd impl_top_level.ncd impl_top_level.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml impl_top_level.twx impl_top_level.ncd -o impl_top_level.twr impl_top_level.pcf -ucf impl_top_level.ucf 
+bitgen -intstyle ise -f impl_top_level.ut impl_top_level.ncd 
+xst -intstyle ise -ifn "B:/Acad/Course Material/Semester 4/CS223/cpu_trial_two/impl_top_level.xst" -ofn "B:/Acad/Course Material/Semester 4/CS223/cpu_trial_two/impl_top_level.syr" 
+xst -intstyle ise -ifn "B:/Acad/Course Material/Semester 4/CS223/cpu_trial_two/impl_top_level.xst" -ofn "B:/Acad/Course Material/Semester 4/CS223/cpu_trial_two/impl_top_level.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc impl_top_level.ucf -p xc6slx45-csg324-3 "impl_top_level.ngc" impl_top_level.ngd  
+map -intstyle ise -p xc6slx45-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o impl_top_level_map.ncd impl_top_level.ngd impl_top_level.pcf 
+par -w -intstyle ise -ol high -mt off impl_top_level_map.ncd impl_top_level.ncd impl_top_level.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml impl_top_level.twx impl_top_level.ncd -o impl_top_level.twr impl_top_level.pcf -ucf impl_top_level.ucf 
+bitgen -intstyle ise -f impl_top_level.ut impl_top_level.ncd 
+xst -intstyle ise -ifn "B:/Acad/Course Material/Semester 4/CS223/cpu_trial_two/impl_top_level.xst" -ofn "B:/Acad/Course Material/Semester 4/CS223/cpu_trial_two/impl_top_level.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc impl_top_level.ucf -p xc6slx45-csg324-3 "impl_top_level.ngc" impl_top_level.ngd  
+map -intstyle ise -p xc6slx45-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o impl_top_level_map.ncd impl_top_level.ngd impl_top_level.pcf 
+par -w -intstyle ise -ol high -mt off impl_top_level_map.ncd impl_top_level.ncd impl_top_level.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml impl_top_level.twx impl_top_level.ncd -o impl_top_level.twr impl_top_level.pcf -ucf impl_top_level.ucf 
+bitgen -intstyle ise -f impl_top_level.ut impl_top_level.ncd 
+xst -intstyle ise -ifn "B:/Acad/Course Material/Semester 4/CS223/cpu_trial_two/impl_top_level.xst" -ofn "B:/Acad/Course Material/Semester 4/CS223/cpu_trial_two/impl_top_level.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc impl_top_level.ucf -p xc6slx45-csg324-3 "impl_top_level.ngc" impl_top_level.ngd  
+map -intstyle ise -p xc6slx45-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o impl_top_level_map.ncd impl_top_level.ngd impl_top_level.pcf 
+par -w -intstyle ise -ol high -mt off impl_top_level_map.ncd impl_top_level.ncd impl_top_level.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml impl_top_level.twx impl_top_level.ncd -o impl_top_level.twr impl_top_level.pcf -ucf impl_top_level.ucf 
+bitgen -intstyle ise -f impl_top_level.ut impl_top_level.ncd 
+xst -intstyle ise -ifn "B:/Acad/Course Material/Semester 4/CS223/cpu_trial_two/impl_top_level.xst" -ofn "B:/Acad/Course Material/Semester 4/CS223/cpu_trial_two/impl_top_level.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc impl_top_level.ucf -p xc6slx45-csg324-3 "impl_top_level.ngc" impl_top_level.ngd  
+map -intstyle ise -p xc6slx45-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o impl_top_level_map.ncd impl_top_level.ngd impl_top_level.pcf 
+par -w -intstyle ise -ol high -mt off impl_top_level_map.ncd impl_top_level.ncd impl_top_level.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml impl_top_level.twx impl_top_level.ncd -o impl_top_level.twr impl_top_level.pcf -ucf impl_top_level.ucf 
+bitgen -intstyle ise -f impl_top_level.ut impl_top_level.ncd 
+xst -intstyle ise -ifn "B:/Acad/Course Material/Semester 4/CS223/cpu_trial_two/impl_top_level.xst" -ofn "B:/Acad/Course Material/Semester 4/CS223/cpu_trial_two/impl_top_level.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc impl_top_level.ucf -p xc6slx45-csg324-3 "impl_top_level.ngc" impl_top_level.ngd  
+map -intstyle ise -p xc6slx45-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o impl_top_level_map.ncd impl_top_level.ngd impl_top_level.pcf 
+par -w -intstyle ise -ol high -mt off impl_top_level_map.ncd impl_top_level.ncd impl_top_level.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml impl_top_level.twx impl_top_level.ncd -o impl_top_level.twr impl_top_level.pcf -ucf impl_top_level.ucf 
+bitgen -intstyle ise -f impl_top_level.ut impl_top_level.ncd 
+xst -intstyle ise -ifn "B:/Acad/Course Material/Semester 4/CS223/cpu_trial_two/impl_top_level.xst" -ofn "B:/Acad/Course Material/Semester 4/CS223/cpu_trial_two/impl_top_level.syr" 
+xst -intstyle ise -ifn "B:/Acad/Course Material/Semester 4/CS223/cpu_trial_two/impl_top_level.xst" -ofn "B:/Acad/Course Material/Semester 4/CS223/cpu_trial_two/impl_top_level.syr" 
+xst -intstyle ise -ifn "B:/Acad/Course Material/Semester 4/CS223/cpu_trial_two/impl_top_level.xst" -ofn "B:/Acad/Course Material/Semester 4/CS223/cpu_trial_two/impl_top_level.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc impl_top_level.ucf -p xc6slx45-csg324-3 "impl_top_level.ngc" impl_top_level.ngd  
+map -intstyle ise -p xc6slx45-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o impl_top_level_map.ncd impl_top_level.ngd impl_top_level.pcf 
+par -w -intstyle ise -ol high -mt off impl_top_level_map.ncd impl_top_level.ncd impl_top_level.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml impl_top_level.twx impl_top_level.ncd -o impl_top_level.twr impl_top_level.pcf -ucf impl_top_level.ucf 
+bitgen -intstyle ise -f impl_top_level.ut impl_top_level.ncd 
+xst -intstyle ise -ifn "B:/Acad/Course Material/Semester 4/CS223/cpu_trial_two/impl_top_level.xst" -ofn "B:/Acad/Course Material/Semester 4/CS223/cpu_trial_two/impl_top_level.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc impl_top_level.ucf -p xc6slx45-csg324-3 "impl_top_level.ngc" impl_top_level.ngd  
+map -intstyle ise -p xc6slx45-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o impl_top_level_map.ncd impl_top_level.ngd impl_top_level.pcf 
+par -w -intstyle ise -ol high -mt off impl_top_level_map.ncd impl_top_level.ncd impl_top_level.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml impl_top_level.twx impl_top_level.ncd -o impl_top_level.twr impl_top_level.pcf -ucf impl_top_level.ucf 
+bitgen -intstyle ise -f impl_top_level.ut impl_top_level.ncd 
+xst -intstyle ise -ifn "B:/Acad/Course Material/Semester 4/CS223/cpu_trial_two/impl_top_level.xst" -ofn "B:/Acad/Course Material/Semester 4/CS223/cpu_trial_two/impl_top_level.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc impl_top_level.ucf -p xc6slx45-csg324-3 "impl_top_level.ngc" impl_top_level.ngd  
+map -intstyle ise -p xc6slx45-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o impl_top_level_map.ncd impl_top_level.ngd impl_top_level.pcf 
+par -w -intstyle ise -ol high -mt off impl_top_level_map.ncd impl_top_level.ncd impl_top_level.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml impl_top_level.twx impl_top_level.ncd -o impl_top_level.twr impl_top_level.pcf -ucf impl_top_level.ucf 
+bitgen -intstyle ise -f impl_top_level.ut impl_top_level.ncd 
+xst -intstyle ise -ifn "B:/Acad/Course Material/Semester 4/CS223/cpu_trial_two/impl_top_level.xst" -ofn "B:/Acad/Course Material/Semester 4/CS223/cpu_trial_two/impl_top_level.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc impl_top_level.ucf -p xc6slx45-csg324-3 "impl_top_level.ngc" impl_top_level.ngd  
+map -intstyle ise -p xc6slx45-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o impl_top_level_map.ncd impl_top_level.ngd impl_top_level.pcf 
+par -w -intstyle ise -ol high -mt off impl_top_level_map.ncd impl_top_level.ncd impl_top_level.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml impl_top_level.twx impl_top_level.ncd -o impl_top_level.twr impl_top_level.pcf -ucf impl_top_level.ucf 
+bitgen -intstyle ise -f impl_top_level.ut impl_top_level.ncd 
+xst -intstyle ise -ifn "B:/Acad/Course Material/Semester 4/CS223/cpu_trial_two/impl_top_level.xst" -ofn "B:/Acad/Course Material/Semester 4/CS223/cpu_trial_two/impl_top_level.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc impl_top_level.ucf -p xc6slx45-csg324-3 "impl_top_level.ngc" impl_top_level.ngd  
+map -intstyle ise -p xc6slx45-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o impl_top_level_map.ncd impl_top_level.ngd impl_top_level.pcf 
+par -w -intstyle ise -ol high -mt off impl_top_level_map.ncd impl_top_level.ncd impl_top_level.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml impl_top_level.twx impl_top_level.ncd -o impl_top_level.twr impl_top_level.pcf -ucf impl_top_level.ucf 
+bitgen -intstyle ise -f impl_top_level.ut impl_top_level.ncd 
+xst -intstyle ise -ifn "B:/Acad/Course Material/Semester 4/CS223/cpu_trial_two/impl_top_level.xst" -ofn "B:/Acad/Course Material/Semester 4/CS223/cpu_trial_two/impl_top_level.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc impl_top_level.ucf -p xc6slx45-csg324-3 "impl_top_level.ngc" impl_top_level.ngd  
+map -intstyle ise -p xc6slx45-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o impl_top_level_map.ncd impl_top_level.ngd impl_top_level.pcf 
+par -w -intstyle ise -ol high -mt off impl_top_level_map.ncd impl_top_level.ncd impl_top_level.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml impl_top_level.twx impl_top_level.ncd -o impl_top_level.twr impl_top_level.pcf -ucf impl_top_level.ucf 
+bitgen -intstyle ise -f impl_top_level.ut impl_top_level.ncd 
+xst -intstyle ise -ifn "B:/Acad/Course Material/Semester 4/CS223/cpu_trial_two/impl_top_level.xst" -ofn "B:/Acad/Course Material/Semester 4/CS223/cpu_trial_two/impl_top_level.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc impl_top_level.ucf -p xc6slx45-csg324-3 "impl_top_level.ngc" impl_top_level.ngd  
+xst -intstyle ise -ifn "B:/Acad/Course Material/Semester 4/CS223/cpu_trial_two/impl_top_level.xst" -ofn "B:/Acad/Course Material/Semester 4/CS223/cpu_trial_two/impl_top_level.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc impl_top_level.ucf -p xc6slx45-csg324-3 "impl_top_level.ngc" impl_top_level.ngd  
+map -intstyle ise -p xc6slx45-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o impl_top_level_map.ncd impl_top_level.ngd impl_top_level.pcf 
+par -w -intstyle ise -ol high -mt off impl_top_level_map.ncd impl_top_level.ncd impl_top_level.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml impl_top_level.twx impl_top_level.ncd -o impl_top_level.twr impl_top_level.pcf -ucf impl_top_level.ucf 
+bitgen -intstyle ise -f impl_top_level.ut impl_top_level.ncd 
+xst -intstyle ise -ifn "B:/Acad/Course Material/Semester 4/CS223/cpu_trial_two/impl_top_level.xst" -ofn "B:/Acad/Course Material/Semester 4/CS223/cpu_trial_two/impl_top_level.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc impl_top_level.ucf -p xc6slx45-csg324-3 "impl_top_level.ngc" impl_top_level.ngd  
+map -intstyle ise -p xc6slx45-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o impl_top_level_map.ncd impl_top_level.ngd impl_top_level.pcf 
+par -w -intstyle ise -ol high -mt off impl_top_level_map.ncd impl_top_level.ncd impl_top_level.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml impl_top_level.twx impl_top_level.ncd -o impl_top_level.twr impl_top_level.pcf -ucf impl_top_level.ucf 
+bitgen -intstyle ise -f impl_top_level.ut impl_top_level.ncd 
+xst -intstyle ise -ifn "B:/Acad/Course Material/Semester 4/CS223/cpu_trial_two/impl_top_level.xst" -ofn "B:/Acad/Course Material/Semester 4/CS223/cpu_trial_two/impl_top_level.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc impl_top_level.ucf -p xc6slx45-csg324-3 "impl_top_level.ngc" impl_top_level.ngd  
+map -intstyle ise -p xc6slx45-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o impl_top_level_map.ncd impl_top_level.ngd impl_top_level.pcf 
+par -w -intstyle ise -ol high -mt off impl_top_level_map.ncd impl_top_level.ncd impl_top_level.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml impl_top_level.twx impl_top_level.ncd -o impl_top_level.twr impl_top_level.pcf -ucf impl_top_level.ucf 
+bitgen -intstyle ise -f impl_top_level.ut impl_top_level.ncd 
+xst -intstyle ise -ifn "B:/Acad/Course Material/Semester 4/CS223/cpu_trial_two/impl_top_level.xst" -ofn "B:/Acad/Course Material/Semester 4/CS223/cpu_trial_two/impl_top_level.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc impl_top_level.ucf -p xc6slx45-csg324-3 "impl_top_level.ngc" impl_top_level.ngd  
+map -intstyle ise -p xc6slx45-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o impl_top_level_map.ncd impl_top_level.ngd impl_top_level.pcf 
+xst -intstyle ise -ifn "B:/Acad/Course Material/Semester 4/CS223/cpu_trial_two/impl_top_level.xst" -ofn "B:/Acad/Course Material/Semester 4/CS223/cpu_trial_two/impl_top_level.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc impl_top_level.ucf -p xc6slx45-csg324-3 "impl_top_level.ngc" impl_top_level.ngd  
+map -intstyle ise -p xc6slx45-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o impl_top_level_map.ncd impl_top_level.ngd impl_top_level.pcf 
+par -w -intstyle ise -ol high -mt off impl_top_level_map.ncd impl_top_level.ncd impl_top_level.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml impl_top_level.twx impl_top_level.ncd -o impl_top_level.twr impl_top_level.pcf -ucf impl_top_level.ucf 
+bitgen -intstyle ise -f impl_top_level.ut impl_top_level.ncd 
+xst -intstyle ise -ifn "B:/Acad/Course Material/Semester 4/CS223/cpu_trial_two/impl_top_level.xst" -ofn "B:/Acad/Course Material/Semester 4/CS223/cpu_trial_two/impl_top_level.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc impl_top_level.ucf -p xc6slx45-csg324-3 "impl_top_level.ngc" impl_top_level.ngd  
+map -intstyle ise -p xc6slx45-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o impl_top_level_map.ncd impl_top_level.ngd impl_top_level.pcf 
+par -w -intstyle ise -ol high -mt off impl_top_level_map.ncd impl_top_level.ncd impl_top_level.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml impl_top_level.twx impl_top_level.ncd -o impl_top_level.twr impl_top_level.pcf -ucf impl_top_level.ucf 
+bitgen -intstyle ise -f impl_top_level.ut impl_top_level.ncd 
+xst -intstyle ise -ifn "B:/Acad/Course Material/Semester 4/CS223/cpu_trial_two/impl_top_level.xst" -ofn "B:/Acad/Course Material/Semester 4/CS223/cpu_trial_two/impl_top_level.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc impl_top_level.ucf -p xc6slx45-csg324-3 "impl_top_level.ngc" impl_top_level.ngd  
+map -intstyle ise -p xc6slx45-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o impl_top_level_map.ncd impl_top_level.ngd impl_top_level.pcf 
+par -w -intstyle ise -ol high -mt off impl_top_level_map.ncd impl_top_level.ncd impl_top_level.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml impl_top_level.twx impl_top_level.ncd -o impl_top_level.twr impl_top_level.pcf -ucf impl_top_level.ucf 
+bitgen -intstyle ise -f impl_top_level.ut impl_top_level.ncd 
+xst -intstyle ise -ifn "B:/Acad/Course Material/Semester 4/CS223/cpu_trial_two/impl_top_level.xst" -ofn "B:/Acad/Course Material/Semester 4/CS223/cpu_trial_two/impl_top_level.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc impl_top_level.ucf -p xc6slx45-csg324-3 "impl_top_level.ngc" impl_top_level.ngd  
+map -intstyle ise -p xc6slx45-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o impl_top_level_map.ncd impl_top_level.ngd impl_top_level.pcf 
+par -w -intstyle ise -ol high -mt off impl_top_level_map.ncd impl_top_level.ncd impl_top_level.pcf 
+bitgen -intstyle ise -f impl_top_level.ut impl_top_level.ncd 
+xst -intstyle ise -ifn "B:/Acad/Course Material/Semester 4/CS223/cpu_trial_two/impl_top_level.xst" -ofn "B:/Acad/Course Material/Semester 4/CS223/cpu_trial_two/impl_top_level.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc impl_top_level.ucf -p xc6slx45-csg324-3 "impl_top_level.ngc" impl_top_level.ngd  
+map -intstyle ise -p xc6slx45-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o impl_top_level_map.ncd impl_top_level.ngd impl_top_level.pcf 
+par -w -intstyle ise -ol high -mt off impl_top_level_map.ncd impl_top_level.ncd impl_top_level.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml impl_top_level.twx impl_top_level.ncd -o impl_top_level.twr impl_top_level.pcf -ucf impl_top_level.ucf 
+bitgen -intstyle ise -f impl_top_level.ut impl_top_level.ncd 
+xst -intstyle ise -ifn "B:/Acad/Course Material/Semester 4/CS223/cpu_trial_two/impl_top_level.xst" -ofn "B:/Acad/Course Material/Semester 4/CS223/cpu_trial_two/impl_top_level.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc impl_top_level.ucf -p xc6slx45-csg324-3 "impl_top_level.ngc" impl_top_level.ngd  
+map -intstyle ise -p xc6slx45-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o impl_top_level_map.ncd impl_top_level.ngd impl_top_level.pcf 
+par -w -intstyle ise -ol high -mt off impl_top_level_map.ncd impl_top_level.ncd impl_top_level.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml impl_top_level.twx impl_top_level.ncd -o impl_top_level.twr impl_top_level.pcf -ucf impl_top_level.ucf 
+bitgen -intstyle ise -f impl_top_level.ut impl_top_level.ncd 
+xst -intstyle ise -ifn "B:/Acad/Course Material/Semester 4/CS223/cpu_trial_two/impl_top_level.xst" -ofn "B:/Acad/Course Material/Semester 4/CS223/cpu_trial_two/impl_top_level.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc impl_top_level.ucf -p xc6slx45-csg324-3 "impl_top_level.ngc" impl_top_level.ngd  
+map -intstyle ise -p xc6slx45-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o impl_top_level_map.ncd impl_top_level.ngd impl_top_level.pcf 
+par -w -intstyle ise -ol high -mt off impl_top_level_map.ncd impl_top_level.ncd impl_top_level.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml impl_top_level.twx impl_top_level.ncd -o impl_top_level.twr impl_top_level.pcf -ucf impl_top_level.ucf 
+bitgen -intstyle ise -f impl_top_level.ut impl_top_level.ncd 
+xst -intstyle ise -ifn "B:/Acad/Course Material/Semester 4/CS223/cpu_trial_two/impl_top_level.xst" -ofn "B:/Acad/Course Material/Semester 4/CS223/cpu_trial_two/impl_top_level.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc impl_top_level.ucf -p xc6slx45-csg324-3 "impl_top_level.ngc" impl_top_level.ngd  
+map -intstyle ise -p xc6slx45-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o impl_top_level_map.ncd impl_top_level.ngd impl_top_level.pcf 
+par -w -intstyle ise -ol high -mt off impl_top_level_map.ncd impl_top_level.ncd impl_top_level.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml impl_top_level.twx impl_top_level.ncd -o impl_top_level.twr impl_top_level.pcf -ucf impl_top_level.ucf 
+bitgen -intstyle ise -f impl_top_level.ut impl_top_level.ncd 

@@ -1,0 +1,11 @@
+NET "led_display[0]" LOC = "U18";
+NET "led_display[1]" LOC = "M14";
+NET "led_display[2]" LOC = "N14";
+NET "led_display[3]" LOC = "L14";
+NET "led_display[4]" LOC = "M13";
+NET "led_display[5]" LOC = "D4";
+NET "led_display[6]" LOC = "P16";
+NET "led_display[7]" LOC = "N12";
+
+NET "clk" LOC = "F5";
+NET "reset" LOC = "T15";

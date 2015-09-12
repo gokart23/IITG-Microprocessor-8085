@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=B:\Acad\Course Material\Semester 4\CS223\cpu_trial_two\impl_top_level.ncd
+OUTFILE=B:\Acad\Course Material\Semester 4\CS223\cpu_trial_two\impl_top_level.bit
+FAMILY=Spartan6
+PART=xc6slx45-3csg324
+WORKINGDIR=B:\Acad\Course Material\Semester 4\CS223\cpu_trial_two
+LICENSE=WebPack
+USER_INFO=__0_0_0

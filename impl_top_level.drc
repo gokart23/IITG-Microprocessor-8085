@@ -1,0 +1,8 @@
+Release 14.5 Drc P.58f (nt64)
+Copyright (c) 1995-2012 Xilinx, Inc.  All rights reserved.
+
+Thu Apr 02 14:01:45 2015
+
+drc -z impl_top_level.ncd impl_top_level.pcf
+
+DRC detected 0 errors and 0 warnings.
